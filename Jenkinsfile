@@ -1,6 +1,6 @@
 pipeline {
  agent any 
-  tools {
+ tools {
     go 'go-1.12'
   }
   environment {
@@ -12,3 +12,4 @@ pipeline {
       }
     }
   }
+}
